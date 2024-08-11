@@ -16,7 +16,7 @@ To develop a sentiment analysis model using the BERT architecture to classify pr
 
 The dataset used for this project is the **Amazon Product Reviews dataset**, which contains millions of product reviews categorized by sentiment. 
 
-- **Source**: [Link to dataset] (if available)
+- **Source**: Kaggle
 - **Format**: CSV
 - **Columns**: 
   - `Text`: Review text
@@ -26,18 +26,10 @@ The dataset used for this project is the **Amazon Product Reviews dataset**, whi
 ## Metrics
 
 The model evaluation includes the following metrics:
-- Accuracy
-- Precision
-- Recall
-- F1 Score
-
-## Example
-
-### Training Output
-
-```plaintext
-Evaluation results: {'eval_loss': 0.435861736536026, 'eval_accuracy': 0.885, 'eval_f1': 0.8713770106845133, 'eval_precision': 0.8624061085972852, 'eval_recall': 0.885, 'eval_runtime': 248.226, 'eval_samples_per_second': 0.806, 'eval_steps_per_second': 0.052, 'epoch': 3.0}
-
+- Accuracy : 0.885
+- Precision : 0.8624061085972852
+- Recall :  0.885
+- F1 Score :  0.8713770106845133
 
 ### Testing Example
 
