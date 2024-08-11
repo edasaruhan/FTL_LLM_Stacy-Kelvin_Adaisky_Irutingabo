@@ -44,3 +44,43 @@ Text: My 10 month old baby hates this stuff!!  I've tried giving it to him on 4 
 Predicted Sentiment: Negative
 
 ```
+
+
+
+
+
+
+# Python-Only Question Answering Model
+
+## Project Overview
+This project focuses on creating a model that exclusively answers Python-related questions. If a question is unrelated to Python, the model responds with "I don't know the answer."
+
+## SDG Goal
+SDG 4 - Quality Education
+
+## Objective
+To develop a text classification model that filters and answers Python-related questions while rejecting non-Python queries.
+
+## Dataset
+- **Python-Related Questions**: A collection of Python-related questions sourced from various programming forums.
+- **Non-Python-Related Questions**: A collection of general knowledge and non-Python-related queries.
+
+
+## Model
+- **Model Architecture**: A Gpt2-based model fine-tuned to classify questions as Python-related or not.
+- **Training**: Trained using a dataset labeled with Python-related and non-Python-related tags.
+
+
+
+
+## Testing Example
+- **Query**: "How do I install a package in Python?"
+  - **Response**: "Answering Python-related query: How do I install a package in Python?"
+- **Query**: "What is the weather today?"
+  - **Response**: "I don't know the answer"
+
+
+## Contact
+Created by [Stacy-Kelvin](https://github.com/yourusername).
+
+---
