@@ -75,11 +75,12 @@ To develop a text classification model that filters and answers Python-related q
 
 ## Testing Example
 - **Query**: "How do I install a package in Python?"
-  - **Response**: "Answering Python-related query: How do I install a package in Python?"
+  - **Response**: "How do I install a package in Python? you the in the installed.. command a you ` command, not. and you using of're a you pip your by,,. not on pip.
+` install the- Python, Python"
 - **Query**: "What is the weather today?"
-  - **Response**: "I don't know the answer"
+  - **Response**: "What is the weather today?"
 
-
+## due to a limit dataset the model is not working well , i had to reduce the dataset because the time of the model to learning was so big
 ## Contact
 Created by [Stacy-Kelvin](https://github.com/yourusername).
 
