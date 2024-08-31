@@ -1,4 +1,4 @@
-# Sentiment Analysis of Product Reviews
+# 1.Sentiment Analysis of Product Reviews
 
 ## Project Overview
 
@@ -50,7 +50,7 @@ Predicted Sentiment: Negative
 
 
 
-# Python-Only Question Answering Model
+# 2.Python-Only Question Answering Model
 
 ## Project Overview
 This project focuses on creating a model that exclusively answers Python-related questions. If a question is unrelated to Python, the model responds with "I don't know the answer."
@@ -81,6 +81,38 @@ To develop a text classification model that filters and answers Python-related q
   - **Response**: "What is the weather today?"
 
 ## due to a limit dataset the model is not working well , i had to reduce the dataset because the time of the model to learning was so big
+
+
+
+
+
+# 4.Text Document Classification
+
+## Overview
+This project focuses on classifying and clustering text documents. The dataset contains 2,225 samples categorized into:
+
+- Politics
+- Sport
+- Tech
+- Entertainment
+- Business
+
+## Models Used
+- **Word2Vec:** Generates word embeddings using a shallow neural network.
+- **GloVe:** Creates word embeddings based on global word-word co-occurrence statistics.
+- **BERT:** Provides context-aware embeddings using a transformer-based model.
+- 
+## Getting Started
+
+### Prerequisites
+- Python 3.x
+- Jupyter Notebook (optional)
+
+Open and run the `.ipynb` files to explore the dataset and models.
+
+
+
+This version covers the essentials while keeping it brief. Adjust the contact information and other specifics as needed.
 ## Contact
 Created by [Stacy-Kelvin](https://github.com/yourusername).
 
